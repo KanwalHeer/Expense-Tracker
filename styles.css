@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    background-color: #f3ecf9;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color: rgb(200, 173, 225);
+    margin-top: 200px;
+  }
+  
+
+  h1 {
+    text-align: center;
+  }
+  
+
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  input, select, button {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 15px;
+    border-color: black;
+  }
+  
+
+  button {
+    background-color:rgb(71, 24, 71);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+
+  button:hover {
+    background-color: #714e8e;
+  }
+  
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+
+  li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+
+  li:last-child {
+    border-bottom: none;
+  }
+  
+
+  .category-food {
+    color: green;
+  }
+  
+
+  .category-transportation {
+    color: blue;
+  }
+  
+
+  .category-entertainment {
+    color: orange;
+  }
+  
+
+  .category-bills {
+    color: red;
+  }
+  
+
+  .category-others {
+    color: gray;
+  }
+  
